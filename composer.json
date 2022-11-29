@@ -1,0 +1,9 @@
+{
+    "name": "my-vendor-name/fahlgren-statamic-starter",
+    "extra": {
+        "statamic": {
+            "name": "Fahlgren Statamic Starter",
+            "description": "Fahlgren Statamic Starter starter kit"
+        }
+    }
+}

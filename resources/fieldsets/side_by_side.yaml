@@ -1,0 +1,54 @@
+title: 'Side by Side'
+fields:
+  -
+    handle: flip_desktop_order
+    field:
+      default: false
+      display: 'Flip Desktop Order'
+      type: toggle
+      icon: toggle
+      instructions: 'Side 1 will be on right side in desktop view if set.'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: sides
+    field:
+      collapse: false
+      previews: true
+      max_sets: 2
+      sets:
+        content_tout:
+          display: 'Content Tout'
+          fields:
+            -
+              import: content_tout
+        figure:
+          display: Figure
+          fields:
+            -
+              import: figure
+        text:
+          display: Text
+          fields:
+            -
+              handle: text
+              field: common.text_rich
+              config:
+                buttons:
+                  - h2
+                  - h3
+                  - bold
+                  - italic
+                  - unorderedlist
+                  - orderedlist
+                  - removeformat
+                  - anchor
+      display: Sides
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

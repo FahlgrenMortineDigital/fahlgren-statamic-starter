@@ -1,0 +1,19 @@
+<section class="fluid-container">
+    <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-8">
+        {{ sides scope="block" }}
+            <div class="lg:basis-1/2 {{ {flip_desktop_order && first} ?= 'lg:order-2' }}">
+                {{ if type == 'text' }}
+                    {{ partial:typography/prose as="div" class="contents" }}
+                        {{ partial src="components/{type}" }}
+                    {{ /partial:typography/prose }}
+                {{ elseif type=='figure' }}
+                    <div class="rounded overflow-hidden">
+                        {{ partial src="components/{type}" }}
+                    </div>
+                {{ else }}
+                    {{ partial src="components/{type}" }}
+                {{ /if }}
+            </div>
+        {{ /sides }}
+    </div>
+</section>

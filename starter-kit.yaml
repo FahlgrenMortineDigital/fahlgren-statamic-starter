@@ -1,0 +1,6 @@
+export_paths:
+  - content/collections/pages/examples.md
+  - resources/fieldsets/page_builder.yaml
+  - resources/fieldsets/content_tout.yaml
+  - resources/fieldsets/side_by_side.yaml
+  - resources/views/page_builder/_side_by_side.antlers.html
