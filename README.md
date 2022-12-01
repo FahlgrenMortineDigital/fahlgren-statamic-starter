@@ -1,6 +1,6 @@
 <img src="https://statamic.com/assets/branding/Statamic-Logo-Rad.png" width="100" alt="Statamic Logo" />
 
-#Fahlgren Mortine Starter Kit
+# Fahlgren Mortine Starter Kit
 
 This starter kit is meant to be used with the [Peak starter kit](https://statamic.com/starter-kits/studio1902/peak). When installing, you must start with peak and then install this one.
 
