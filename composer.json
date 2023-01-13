@@ -1,5 +1,5 @@
 {
-    "name": "my-vendor-name/fahlgren-statamic-starter",
+    "name": "FahlgrenMortineDigital/fahlgren-statamic-starter",
     "extra": {
         "statamic": {
             "name": "Fahlgren Statamic Starter",
