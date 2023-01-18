@@ -3,7 +3,7 @@ id: 6b995156-142b-43d6-be4e-6c260ea90d37
 blueprint: page
 title: Examples
 updated_by: 60fe3831-42ec-4baa-a317-649c5e83f9dd
-updated_at: 1668717082
+updated_at: 1669912024
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry

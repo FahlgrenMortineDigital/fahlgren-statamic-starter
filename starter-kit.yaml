@@ -4,3 +4,4 @@ export_paths:
   - resources/fieldsets/content_tout.yaml
   - resources/fieldsets/side_by_side.yaml
   - resources/views/page_builder/_side_by_side.antlers.html
+  - resources/views/components/_content_tout.antlers.html

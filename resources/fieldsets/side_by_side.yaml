@@ -13,6 +13,21 @@ fields:
       visibility: visible
       always_save: false
   -
+    handle: desktop_first_column_width
+    field:
+      min: 30
+      max: 70
+      step: 10
+      default: 50
+      display: 'Desktop First Column Width'
+      type: range
+      icon: range
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      instructions: 'Numbers represent % of width.'
+  -
     handle: sides
     field:
       collapse: false

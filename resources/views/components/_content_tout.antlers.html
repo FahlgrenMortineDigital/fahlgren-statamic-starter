@@ -1,0 +1,15 @@
+{{#
+	@name content-tout
+	@desc The content-tout page builder block.
+    @set page.page_builder.content_tout
+#}}
+
+<!-- /page_builder/_content_tout.antlers.html -->
+    <section class="max-w-screen-xl mx-auto">
+        {{ partial:typography/h2 :content="title" class="md:col-span-12 text-center lg:text-left lg:mt-4" }}
+        {{ partial:typography/p :content="text" class="mt-4" }}
+        <div class="flex justify-center lg:justify-start">
+            {{ block:buttons ?= { partial:components/buttons } }}
+        </div>
+    </section>
+<!-- End: /page_builder/_content_tout.antlers.html -->
