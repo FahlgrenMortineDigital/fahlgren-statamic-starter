@@ -3,7 +3,7 @@ id: 6b995156-142b-43d6-be4e-6c260ea90d37
 blueprint: page
 title: Examples
 updated_by: 60fe3831-42ec-4baa-a317-649c5e83f9dd
-updated_at: 1669912024
+updated_at: 1674574232
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -35,6 +35,7 @@ page_builder:
     type: side_by_side
     enabled: true
     flip_desktop_order: true
+    desktop_first_column_width: 50
   -
     sides:
       -
@@ -68,6 +69,7 @@ page_builder:
     type: side_by_side
     enabled: true
     flip_desktop_order: true
+    desktop_first_column_width: 50
   -
     sides:
       -
@@ -114,6 +116,7 @@ page_builder:
     type: side_by_side
     enabled: true
     flip_desktop_order: false
+    desktop_first_column_width: 50
   -
     sides:
       -
@@ -160,4 +163,30 @@ page_builder:
     type: side_by_side
     enabled: true
     flip_desktop_order: true
+    desktop_first_column_width: 50
+  -
+    title: Testing
+    text: asdfasd
+    type: call_to_action
+    enabled: true
+  -
+    flip_desktop_order: false
+    desktop_first_column_width: 50
+    sides:
+      -
+        title: asdf
+        text: asdf
+        buttons:
+          -
+            label: asdf
+            link_type: url
+            target_blank: false
+            url: 'https://google.com'
+            button_type: button
+            attr_title: sdfgsdfg
+            attr_aria: adsgfsdfg
+        type: content_tout
+        enabled: true
+    type: side_by_side
+    enabled: true
 ---
